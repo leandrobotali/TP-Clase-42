@@ -1,0 +1,23 @@
+<div class="card card-body p-5 mt-4">
+  <h1 class="display-4">Mensajes</h1>
+  <hr class="my-4" />
+  {{#each mensajes}}
+  <p>{{autor}}: {{text}}</p>
+  {{else}}
+  <div class="card mx-auto">
+    <div class="card-body">
+      <h1>Hola</h1>
+      <p class="lead">No hay mensajes todavia.</p>
+    </div>
+  </div>
+  {{/each}}
+</div>
+<form action="/mensaje" method="POST">
+    <div class="mb-3">
+        <label for="mensaje">Mensaje:</label>
+        <input type="mensaje" class="form-control" name="mensaje" placeholder="Mensaje" autofocus />
+    </div>
+    <button class="btn btn-success btn-block">
+        Enviar
+    </button>
+</form>

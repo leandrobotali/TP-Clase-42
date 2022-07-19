@@ -1,0 +1,798 @@
+[2022-06-28T15:15:44.062] [ERROR] default - no se seleccion imagen
+[2022-06-28T16:01:17.650] [ERROR] default - ReferenceError: mailOptions is not defined
+    at singup (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/auth.controllers.js:56:45)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-28T16:02:14.148] [ERROR] default - ReferenceError: erros is not defined
+    at singup (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/auth.controllers.js:21:20)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:47:12)
+[2022-06-28T16:03:37.026] [ERROR] default - [ { text: 'Passwords deben tener como minimo 4 caracteres.' } ]
+[2022-06-28T18:47:22.236] [ERROR] default - ReferenceError: precio is not defined
+    at confirmarCompra (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/carrito.controller.js:32:125)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/helpers/auth.js:3:12)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:365:14)
+[2022-06-28T19:13:15.407] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-28T19:39:40.564] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-28T19:45:40.688] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-28T19:47:03.313] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-28T19:47:23.472] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-28T22:58:59.291] [ERROR] default - RestException [Error]: Authenticate
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-06-28T23:00:29.258] [ERROR] default - RestException [Error]: Authenticate
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-06-28T23:00:48.766] [ERROR] default - RestException [Error]: Authenticate
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-06-28T23:22:02.919] [ERROR] default - RestException [Error]: Authenticate
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-06-28T23:24:41.076] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-29T00:56:50.289] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-29T01:03:40.753] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2022-06-29T01:06:47.789] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-29T01:12:19.206] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-29T01:14:36.644] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-29T01:16:42.963] [ERROR] default - RestException [Error]: The 'To' number 543496544920 is not a valid phone number.
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-06-29T01:26:08.247] [ERROR] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-06-29T01:42:47.555] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2022-06-29T01:50:30.370] [ERROR] default - ReferenceError: towsp is not defined
+    at confirmarCompra (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/carrito.controller.js:39:56)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/helpers/auth.js:3:12)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Work Space\Tercera entrega de project\node_modules\express\lib\router\index.js:365:14)
+[2022-06-29T01:58:10.179] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2022-06-29T02:13:45.494] [ERROR] default - RestException [Error]: The 'To' number +549undefined is not a valid phone number.
+    at success (C:\Work Space\Tercera entrega de project\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Work Space\Tercera entrega de project\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Work Space\Tercera entrega de project\node_modules\asap\asap.js:40:19)
+    at flush (C:\Work Space\Tercera entrega de project\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2022-07-06T00:01:23.920] [ERROR] default - ReferenceError: Prod is not defined
+    at createNewProducto (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/productos.controller.js:15:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-06T00:01:59.806] [ERROR] default - ReferenceError: description is not defined
+    at createNewProducto (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/productos.controller.js:20:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-06T00:14:16.322] [ERROR] default - ReferenceError: nombre is not defined
+    at createNewProducto (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/productos.controller.js:12:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-06T00:39:42.166] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at new NodeError (node:internal/errors:372:5)
+    at validateString (node:internal/validators:120:11)
+    at extname (node:path:837:5)
+    at new View (C:\Work Space\Tercera entrega de project\node_modules\express\lib\view.js:56:14)
+    at Function.render (C:\Work Space\Tercera entrega de project\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (C:\Work Space\Tercera entrega de project\node_modules\express\lib\response.js:1039:7)
+    at updateProducto (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/productos.controller.js:71:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2022-07-06T01:54:34.350] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'email')
+    at uploadImg (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/auth.controllers.js:41:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-06T02:02:59.459] [ERROR] default - ReferenceError: prod is not defined
+    at singup (file:///C:/Work%20Space/Tercera%20entrega%20de%20project/src/controllers/auth.controllers.js:15:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-13T09:29:34.889] [ERROR] default - TypeError: Cannot read properties of null (reading 'email')
+    at uploadImg (file:///C:/Work%20Space/TP%20Clase%2040/src/controllers/auth.controllers.js:40:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-13T09:39:44.830] [ERROR] default - ReferenceError: error is not defined
+    at DaoCarrito.find (file:///C:/Work%20Space/TP%20Clase%2040/src/daos/DaosCarritos.js:18:13)
+    at agregarProd (file:///C:/Work%20Space/TP%20Clase%2040/src/servicios/servCarrito.js:29:39)
+    at agregarProdaCarr (file:///C:/Work%20Space/TP%20Clase%2040/src/controllers/carrito.controller.js:28:15)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 40\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 40\node_modules\express\lib\router\route.js:144:13)
+    at isAuthenticated (file:///C:/Work%20Space/TP%20Clase%2040/src/middelwares/auth.js:3:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 40\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 40\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 40\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 40\node_modules\express\lib\router\layer.js:95:5)
+[2022-07-19T00:18:37.532] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:12:20)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:11)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:22:33.224] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:12:20)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:11)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:27:56.827] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:12:20)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:22)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:27:56.833] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:12:20)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:22)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:28:44.705] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:12:20)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:22)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:28:44.712] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:12:20)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:22)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:30:48.076] [ERROR] default - Falta password.
+[2022-07-19T00:30:48.079] [ERROR] default - Falta password.
+[2022-07-19T00:30:53.558] [ERROR] default - Falta password.
+[2022-07-19T00:30:53.559] [ERROR] default - Falta password.
+[2022-07-19T00:34:11.964] [ERROR] default - Falta password.
+[2022-07-19T00:34:11.965] [ERROR] default - Falta password.
+[2022-07-19T00:34:26.980] [ERROR] default - Falta password.
+[2022-07-19T00:34:26.981] [ERROR] default - Falta password.
+[2022-07-19T00:35:22.925] [ERROR] default - ReferenceError: re is not defined
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:10:19)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:22)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:35:22.933] [ERROR] default - ReferenceError: re is not defined
+    at registro (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servAuth.js:10:19)
+    at singup (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/auth.controllers.js:7:22)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+[2022-07-19T00:35:41.906] [ERROR] default - Falta password.
+[2022-07-19T00:35:41.908] [ERROR] default - Falta password.
+[2022-07-19T00:38:11.745] [ERROR] default - Falta password.
+[2022-07-19T00:38:11.748] [ERROR] default - Falta password.
+[2022-07-19T00:39:50.415] [ERROR] default - Falta password.
+[2022-07-19T00:39:50.418] [ERROR] default - Falta password.
+[2022-07-19T00:54:16.648] [ERROR] default - Passwords no coinciden.
+[2022-07-19T00:54:16.651] [ERROR] default - Passwords no coinciden.
+[2022-07-19T02:10:59.676] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:10:59.836] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:14:26.770] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:19:20.834] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:21:09.000] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:21:09.073] [ERROR] default - ReferenceError: errors is not defined
+    at updateProd (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servProductos.js:40:5)
+    at updateProducto (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/productos.controller.js:31:29)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\connect-flash\lib\flash.js:21:5
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at SessionStrategy.strategy.pass (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\authenticate.js:346:9)
+    at SessionStrategy.authenticate (C:\Work Space\TP Clase 42\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at session (C:\Work Space\TP Clase 42\node_modules\express-session\index.js:479:7)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at methodOverride (C:\Work Space\TP Clase 42\node_modules\method-override\index.js:65:14)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Work Space\TP Clase 42\node_modules\raw-body\index.js:231:16)
+    at done (C:\Work Space\TP Clase 42\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Work Space\TP Clase 42\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-07-19T02:21:09.166] [ERROR] default - ReferenceError: errors is not defined
+    at updateProd (file:///C:/Work%20Space/TP%20Clase%2042/src/servicios/servProductos.js:40:5)
+    at updateProducto (file:///C:/Work%20Space/TP%20Clase%2042/src/controllers/productos.controller.js:31:29)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 42\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\connect-flash\lib\flash.js:21:5
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at SessionStrategy.strategy.pass (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\authenticate.js:346:9)
+    at SessionStrategy.authenticate (C:\Work Space\TP Clase 42\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Work Space\TP Clase 42\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at session (C:\Work Space\TP Clase 42\node_modules\express-session\index.js:479:7)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at methodOverride (C:\Work Space\TP Clase 42\node_modules\method-override\index.js:65:14)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 42\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:328:13)
+    at C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 42\node_modules\express\lib\router\index.js:280:10)
+    at C:\Work Space\TP Clase 42\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Work Space\TP Clase 42\node_modules\raw-body\index.js:231:16)
+    at done (C:\Work Space\TP Clase 42\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Work Space\TP Clase 42\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2022-07-19T02:21:09.250] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:22:06.357] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:22:06.685] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:25:00.520] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:25:01.016] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:25:29.627] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:25:30.128] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:28:06.261] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:28:06.933] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:28:07.184] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:28:07.425] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:28:07.607] [ERROR] default - CastError: Cast to ObjectId failed for value "1111" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4780:21)
+    at model.Query.Query.then (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"1111"',
+  kind: 'ObjectId',
+  value: '1111',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Work Space\TP Clase 42\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Work Space\TP Clase 42\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1589:20)
+      at cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:5202:12)
+      at model.Query.Query._castConditions (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:2176:10)
+      at model.Query.<anonymous> (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:3116:8)
+      at model.Query._wrappedThunk [as _deleteOne] (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\helpers\query\wrapThunk.js:27:8)
+      at C:\Work Space\TP Clase 42\node_modules\kareem\index.js:426:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11),
+  valueType: 'string'
+}
+[2022-07-19T02:31:15.963] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:31:16.282] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:31:16.431] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:31:16.558] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:31:16.629] [ERROR] default - CastError: Cast to ObjectId failed for value "ae1111" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4780:21)
+    at model.Query.Query.then (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"ae1111"',
+  kind: 'ObjectId',
+  value: 'ae1111',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Work Space\TP Clase 42\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Work Space\TP Clase 42\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1589:20)
+      at cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:5202:12)
+      at model.Query.Query._castConditions (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:2176:10)
+      at model.Query.<anonymous> (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:3116:8)
+      at model.Query._wrappedThunk [as _deleteOne] (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\helpers\query\wrapThunk.js:27:8)
+      at C:\Work Space\TP Clase 42\node_modules\kareem\index.js:426:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11),
+  valueType: 'string'
+}
+[2022-07-19T02:32:22.246] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:32:23.105] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:32:23.437] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:32:23.769] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:32:23.962] [ERROR] default - CastError: Cast to ObjectId failed for value "ae1111" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4780:21)
+    at model.Query.Query.then (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"ae1111"',
+  kind: 'ObjectId',
+  value: 'ae1111',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Work Space\TP Clase 42\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Work Space\TP Clase 42\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1589:20)
+      at cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:5202:12)
+      at model.Query.Query._castConditions (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:2176:10)
+      at model.Query.<anonymous> (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:3116:8)
+      at model.Query._wrappedThunk [as _deleteOne] (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\helpers\query\wrapThunk.js:27:8)
+      at C:\Work Space\TP Clase 42\node_modules\kareem\index.js:426:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11),
+  valueType: 'string'
+}
+[2022-07-19T02:34:02.586] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:34:03.206] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:34:03.488] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:34:03.764] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:34:03.927] [ERROR] default - CastError: Cast to ObjectId failed for value "ae1111" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4780:21)
+    at model.Query.Query.then (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:4879:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"ae1111"',
+  kind: 'ObjectId',
+  value: 'ae1111',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Work Space\TP Clase 42\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Work Space\TP Clase 42\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1188:12)
+      at ObjectId.SchemaType._castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1622:15)
+      at ObjectId.SchemaType.castForQuery (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1612:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\schematype.js:1589:20)
+      at cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:5202:12)
+      at model.Query.Query._castConditions (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:2176:10)
+      at model.Query.<anonymous> (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\query.js:2203:8)
+      at model.Query._wrappedThunk [as _find] (C:\Work Space\TP Clase 42\node_modules\mongoose\lib\helpers\query\wrapThunk.js:27:8)
+      at C:\Work Space\TP Clase 42\node_modules\kareem\index.js:426:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11),
+  valueType: 'string'
+}
+[2022-07-19T02:35:05.781] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:35:06.388] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:35:06.610] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:35:06.821] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:35:07.031] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:36:46.630] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:36:47.477] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:36:47.945] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:36:48.416] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:36:48.889] [ERROR] default - { messaje: 'Producto Borrado' }
+[2022-07-19T02:39:06.897] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:39:07.498] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:41:08.352] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:41:08.957] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:42:39.342] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:42:40.118] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:45:46.987] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:45:47.307] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:46:51.862] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:46:52.289] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:54:05.252] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T02:54:05.620] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:01:33.850] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:01:33.852] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:01:35.399] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:01:35.711] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:04:39.931] [ERROR] default - { text: 'El email ya esta en uso.' }
+[2022-07-19T03:04:39.934] [ERROR] default - { text: 'El email ya esta en uso.' }
+[2022-07-19T03:04:40.075] [ERROR] default - { text: 'El email ya esta en uso.' }
+[2022-07-19T03:04:40.077] [ERROR] default - { text: 'El email ya esta en uso.' }
+[2022-07-19T03:04:40.151] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:04:40.152] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:04:40.831] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:04:41.151] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:05:56.213] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:05:56.216] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:05:57.825] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:05:58.418] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:09:08.756] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:09:08.758] [ERROR] default - Falta el campo Direccion.
+[2022-07-19T03:09:09.692] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:09:10.003] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:11:49.166] [ERROR] default - Falta el precio del Producto.
+[2022-07-19T03:11:49.689] [ERROR] default - Falta el precio del Producto.
